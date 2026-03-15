@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  streamlit-app:
+    build: .
+    container_name: texttospeech-app
+    ports:
+      - "8502:8502"
+    restart: always
