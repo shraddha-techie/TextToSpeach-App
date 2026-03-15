@@ -5,7 +5,7 @@ import json
 st.title("🌟 Cloud + AI: Text to Speech App")
 st.write("Enter text below and convert it into speech using AWS Polly!")
 
-user_text = st.text_area("Enter your text:")
+user_text = st.text_area("Enter your text buddy:")
 
 if st.button("Convert to Speech"):
     if user_text.strip() != "":
